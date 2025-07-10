@@ -5,6 +5,7 @@ void main() {
 
   nullable_num = 4;
   assert(
+    // ignore: unnecessary_null_comparison
     nullable_num != null,
   ); // assert works in prod, throws exception if false
 
